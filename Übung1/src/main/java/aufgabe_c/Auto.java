@@ -1,0 +1,14 @@
+package aufgabe_c;
+
+public class Auto {
+
+    private final String id;
+
+    public Auto(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+}
