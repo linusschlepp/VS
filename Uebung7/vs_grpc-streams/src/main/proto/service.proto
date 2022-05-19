@@ -1,0 +1,21 @@
+// This is a protobuf sample for a "sample service"
+syntax = "proto3";
+package reading.api;
+option java_multiple_files = true;
+//import "google/protobuf/timestamp.proto"; // see link "Protocol Buffers Well-Known Types" in README for pre-defined types
+
+message Reading {
+  string reading = 1;
+  float data = 2;
+}
+
+message Evaluation {
+  string evaluation = 1;
+  string date = 2;
+}
+
+
+service ReadingService {
+  rpc insertReading (Reading) returns (Evaluation);
+  rpc compileEvaluation(stream Reading) returns (stream Evaluation);
+}
