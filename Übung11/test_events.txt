@@ -1,0 +1,33 @@
+{
+    "titel": "OTH Regensburg",
+    "beschreibung": "Bier und sonstige legale Drogen",
+    "start": "03.07.2021",
+    "ende": "08.07.2021",
+    "owner": "Fachschaft Informatik"
+}
+
+
+{
+    "titel": "Uni Amberg",
+    "beschreibung": "Bier und Funny Games",
+    "start": "04.07.2021",
+    "ende": "09.07.2021",
+    "owner": "Studienvertretung"
+}
+
+
+{
+    "titel": "Universität Augsburg",
+    "beschreibung": "Bierpong und Flankiball",
+    "start": "03.07.2021",
+    "ende": "09.07.2021",
+    "owner": "StuVoAugs"
+}
+
+{
+    "titel": "Universität Rostock",
+    "beschreibung": "Bier und Bierpong",
+    "start": "04.07.2021",
+    "ende": "09.07.2021",
+    "owner": "StuVoRo"
+}
